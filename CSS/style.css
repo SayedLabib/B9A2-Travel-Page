@@ -7,13 +7,43 @@
 
 /* Shared Styles */
 
- .section-description{
+ .description{
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
  }
+
+ .section-title{
+  color: #131318;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+ }
+
+ .section-description{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+}
 .span-color{
    color: #FF5400;;
+}
+
+.btn-primary{
+  border-radius: 8px;
+  background-color: #FF5400;
+  color: white;
+}
+.btn-secondary{
+  width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+border: none;
+cursor: pointer;
+font-weight: 800;
+font-size: 20px;
 }
 
 
@@ -77,6 +107,7 @@
     border-radius: 16px;
     text-align: center;
     
+    
   }
 
  .Explore .Explore-title{
@@ -88,9 +119,51 @@
  }
 
 
+.input-container{
+  margin-top: 48px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  display: inline-flex;
+}
+
+.input-container>input{
+
+  border-radius: 8px;
+  width: 170px;
+  height: 50px;
+  
+  border: none;
+  margin: 30px;
+}
+
+/* .custom-input::placeholder::before{
+       
+      content: "/f107";
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #888;
+} */
 
 
 
+/* Styling Popular Tour Section */
+
+.Tours{
+  margin: 0 135px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 82%;
+  gap: 50px;
+  
+}
+
+.Tour-description .btn-secondary{
+  margin-top: 40px;
+}
 
 
 
