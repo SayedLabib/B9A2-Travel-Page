@@ -164,8 +164,85 @@ font-size: 20px;
 .Tour-description .btn-secondary{
   margin-top: 40px;
 }
+.Tour-description >ul>li{
+  margin-top: 24px;
+}
+
+.Tour-description>p{
+ margin-top: 24px;
+}
+
+.Tour-image img{
+  margin-top: 50px;
+  height: 550px;
+
+}
 
 
+/* Styling Choose YOr Destination section */
+
+.your-destination{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.img-1.img-2{
+  width: 573px;
+  height: 300px;
+}
+.img-1{
+
+}
+
+
+/* Styling Why Choose s section */
+.Why-choose-us{
+  margin-top: 100px;
+  /* width: 82%; */
+  
+}
+.choose-us-description{
+
+  text-align: center;
+}
+
+.card-section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.card-section-1 .card{
+  
+  width: 500px;
+  height: 200px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 32px;
+  
+}
+.card-section-1 #card{
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.card-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-section-2 .card{
+  width: 500px;
+  height: 200px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  margin-top: 24px;
+  padding: 32px;
+}
 
 
 
