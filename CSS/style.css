@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap');
+
+  *{
+    font-family: 'Mulish', sans-serif;
+  }
+
+/* Shared Styles */
+
+.span-color{
+   color: #FF5400;;
+}
+
+
+/* Styling Header section */
+  .nav-bar{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  } 
+
+  .nav-bar ul{
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-bar > li{
+    
+    color: #424247;
+    font-weight: 400;
+    
+  }
+  .nav-bar li a{
+    text-decoration: none;
+    padding-left: 20px ;
+  }
+
+  .nav-bar h3{
+    font-weight: 800;
+    font-size: 36px;
+    color: #131318;
+  }
+
+  .logo-section{
+    display: flex;
+    
+  }
+  
+  .logo-section img{
+    padding-right: 20px;
+  }
+  
+  .burger-menu{
+      width: 24px;
+      height: 24px;
+     
+      cursor: pointer;
+      color: #131318;
+  }
+
+
+  @media screen and (max-width:600px) {
+    
+    .nav-bar li a{
+        display: none;
+     
+    }
+   
+    .burger-menu{
+        display: block;
+        position: right;
+    }
+  }
