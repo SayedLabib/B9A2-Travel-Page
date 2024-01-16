@@ -46,6 +46,21 @@ font-weight: 800;
 font-size: 20px;
 }
 
+.tour-header{
+
+color: #131318;
+font-size: 24px;
+font-weight: 800;
+
+}
+
+.tour-price{
+  color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+
+}
+
 
 /* Styling Header section */
   .nav-bar{
@@ -242,6 +257,54 @@ font-size: 20px;
   background: rgba(251, 181, 99, 0.05);
   margin-top: 24px;
   padding: 32px;
+}
+
+
+/* Styling the Deals and Discounts sections */
+
+.deals-discounts{
+  margin-top: 100px;
+}
+.deals-discounts-description{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.Satorini{
+  
+  margin-top: 48px;
+  background: url(../Images/Group\ 39.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: 82%;
+  height: 500px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.Tour-to-satorini{
+  
+  position: absolute;
+  margin: 56px 56px 56px 535px;
+  width: 500px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid white; 
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);  
+  
+}
+
+.Tour-to-satorini .icons{
+  /* text-align: center; */
+  margin-left: 50px;
+  
+}
+
+.Tour-to-satorini .icons i{
+  margin-inline: 10px;
+  margin-top: 50px;
 }
 
 
