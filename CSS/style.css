@@ -270,6 +270,8 @@ font-weight: 800;
   margin-bottom: 50px;
 }
 
+/* Tour to Satorini */
+
 .Satorini{
   
   margin-top: 48px;
@@ -306,6 +308,64 @@ font-weight: 800;
   margin-inline: 10px;
   margin-top: 50px;
 }
+
+
+
+/* Tour to Satorini-2 */
+
+
+.Satorini-2{
+  
+  margin-top: 48px;
+  background: url(../Images/Group\ 40.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: 82%;
+  height: 500px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.Tour-to-satorini-2{
+  
+  position: absolute;
+  margin: 56px 535px 56px 56px ;
+  width: 500px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid white; 
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);  
+  
+}
+
+.Tour-to-satorini-2 .icons{
+  /* text-align: center; */
+  margin-left: 50px;
+  
+}
+
+.Tour-to-satorini-2 .icons i{
+  margin-inline: 10px;
+  margin-top: 50px;
+}
+
+.deals-discounts .btn-primary{
+  text-align: center;
+  width: 210px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FF5400;
+  color: #FFF;
+font-size: 20px;
+font-weight: 800;
+border: none;
+margin-left: 45%;
+cursor: pointer;
+
+}
+
 
 
 
