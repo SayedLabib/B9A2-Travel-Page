@@ -520,6 +520,7 @@ height: 422px;
   margin-left: 54%;
   margin-top: -25%;
   
+  
 }
 
 
@@ -535,7 +536,7 @@ height: 422px;
   
   height: 502px;
   background: rgba(19, 19, 24, 0.05);
-
+  margin-top: 100px;
 }
 
 .footer-head{
@@ -543,30 +544,36 @@ height: 422px;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin-top: 110px;
+  
   font-weight: 800;
   font-size: 32px;
+  padding-top: 50px;
 }
 
 .footer-body{
-  margin-top: 15px;
-  text-align: center;
   
+  text-align: center;
+  padding-top: 15px;
 }
 
 .Social-links{
   text-align: center;
-  margin-top: 32px;
-  margin-bottom: 50px;
+  padding-top: 32px;
+  /* margin-bottom: 50px; */
 }
 
 .Social-links>i{
   margin-inline: 15px;
+  padding-top: 16px;
+  margin-bottom: 30px
 }
+
+
 .copyright{
-  margin-top: 50px;
+  padding-top: 50px;
   margin-bottom: 110px;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 
