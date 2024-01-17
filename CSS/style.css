@@ -790,7 +790,7 @@ height: 422px;
      
      .img-bunker{
       width: auto;
-      margin-left: 0;
+      margin-left: 50px;
      }
      
      .img-container-1, .img-container-2, .img-container-3{
@@ -805,6 +805,7 @@ height: 422px;
      #box-1,#box-2,#box-4,#box-4,#box-5,#box-6,#box-7{
       width: 360px; 
       height: auto;
+      background-size: cover;
      }
      
      .card-section-1, .card-section-2{
@@ -913,5 +914,34 @@ height: 422px;
     .burger-menu{
         display: block;
         position: right;
+    }
+
+    .Places-container{
+      flex-direction: column;
+      width: auto;
+      height: 2000px;
+      margin-left: 0;
+    }
+
+    .Container{
+      flex-direction: column;
+      padding-top: 100px;
+      padding-bottom: 20px;
+    }
+     
+    .img-card{
+      padding-top: 10px;
+    }
+    .img-card img{
+      height: 250px;
+      width: 300px;
+    }
+    .Places-header{
+      padding-top: -40px;
+      margin-left: 60px;
+    }
+
+    .Places-header h1{
+      font-size: 50px;
     }
   }
