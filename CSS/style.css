@@ -34,6 +34,9 @@
   background-color: #FF5400;
   color: white;
   cursor: pointer;
+width: 174px;
+height: 52px;
+border: none;
 }
 .btn-secondary{
   width: 174px;
@@ -64,6 +67,7 @@ font-weight: 800;
 
 
 /* Styling Header section */
+
   .nav-bar{
       display: flex;
       justify-content: space-around;
@@ -111,6 +115,40 @@ font-weight: 800;
 
 /* Styling Explore sections */
 
+   .input-container{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width:800px;
+    height:84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: auto;
+   }
+
+  .input-container>input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    
+
+  }
+  
+
+  .input-container>select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 5px;
+  }
+
+
+
   .Explore{
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
 
@@ -135,32 +173,30 @@ font-weight: 800;
  }
 
 
-.input-container{
+/* .input-container{
+  display: flex;
+  justify-content: space-around;
   margin-top: 48px;
+  margin-left: 40%;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.30);
-  display: inline-flex;
-}
+  
+  width: 200px;
+  height: 100px;
+  /* display: inline-flex; */
+ 
 
-.input-container>input{
+/* .input-container>input{
 
   border-radius: 8px;
-  width: 170px;
+  width: 200px;
   height: 50px;
   
   border: none;
   margin: 30px;
-}
-
-/* .custom-input::placeholder::before{
-       
-      content: "/f107";
-      position: absolute;
-      left: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      color: #888;
 } */
+
+
 
 
 
@@ -521,10 +557,12 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
 }
 
 
-/* Styling the Users review Section */
+/* Styling the Users review Section IT's OPtional
+ Bonus Section */
 
 
 .first-part{
+  position: relative;
   margin-top: 100px;
   width: 100%;
   height: 400px;
@@ -542,6 +580,33 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
   padding-top: 50px;
 }
 
+.checked {
+  color: orange;
+}
+.second-part{
+  position: absolute;
+  display:flex;
+  justify-content: space-around;
+  margin-top: -200px;
+  margin-left: 200px;
+  gap: 24px;
+}
+.review-card{
+  width: 300px;
+  height: 300px;
+  /* border: 2px solid sandybrown; */
+  border-radius: 8px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 5px 0px #888888;
+}
+
+.review-card img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
 
 
 
@@ -551,7 +616,7 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
 /* Styling the News Letter section */
 
 .news-letter{
-  margin-top: 100px;
+  margin-top: 300px;
   display: flex;
   justify-content: space-around;
   width: 82%;
@@ -694,6 +759,158 @@ height: 422px;
 
   @media screen and (max-width:600px) {
     
+
+    .Explore{
+      width: auto;
+    }
+    
+    .Explore .Explore-title{
+      padding-top: 50px;
+      font-size: 24px;
+    }
+    .input-container{
+      width: 287px;
+      height: auto;
+      flex-direction: column;
+      padding: 10px 0;
+
+    }
+
+    .Tours{
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+     }
+     
+     .Tour-image img{
+      width: 335px;
+      height: auto;
+      margin-top: -10px;
+     }
+     
+     .your-destination{
+      margin: auto;
+      /* display: flex;
+      flex-direction: column; */
+     }
+     
+     .img-bunker{
+      width: auto;
+      margin-left: 0;
+     }
+     
+     .img-container-1, .img-container-2, .img-container-3{
+      flex-direction: column;
+      
+     }
+     
+      .img-bunker h4{
+        margin-bottom: 80px;
+      }
+
+     #box-1,#box-2,#box-4,#box-4,#box-5,#box-6,#box-7{
+      width: 360px; 
+      height: auto;
+     }
+     
+     .card-section-1, .card-section-2{
+      flex-direction: column;
+      
+     }
+     .card-section-1 .card{
+      width: auto; 
+      height: auto;
+     }
+     .card-section-2 .card{
+      width: auto; 
+      height: auto;
+     }
+
+     .Satorini, .Satorini-2, .Sat{
+      width: auto;
+     }
+     .Tour-to-satorini, .Tour-to-satorini-2{
+      /* width: auto; */
+      width: 335px;
+      height: 420px;
+      margin: 56px 56px 56px 12px;
+     }
+     
+     .Tour-to-satorini-2 .icons {
+      margin-left: 10px;
+      }
+     .Tour-to-satorini .icons {
+      margin-left: 10px;
+      }
+      .deals-discounts .btn-primary{
+        margin-left: 22%;
+      }
+
+      .perfect-place{
+        flex-direction: column;
+        margin: auto;
+        
+      }
+
+      .perfect-place-description{
+        width: auto;
+      }
+
+      .video video{
+        width: 335px;
+        height: auto;
+        margin-left: -15px;
+      }
+
+      .video-gradient{
+        width: 335px;
+        height: auto;
+        margin-left: -15px;
+      }
+      .video-message{
+        left: 25%;
+      }
+       
+      .first-part h3{
+        padding-top: 150px;
+      }
+      
+      .second-part{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 25px;
+        position: static;
+      }
+
+      .news-letter{
+        flex-direction: column;
+        margin-top: 100px;
+        width: auto;
+        margin-left: 5px;
+      }
+
+      .news-letter .form{
+        width: auto;
+        height: auto;
+      }
+
+      .news-letter-img img{
+        width: 335px;
+        height: 300px;
+      }
+      .save-up{
+        width: 214px;
+        height: 100px;
+        margin-left: 15%;
+      }
+
+      .footer{
+        width: auto;
+        margin-top:0px;
+      }
+
     .nav-bar li a{
         display: none;
      
